@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-inter), sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-poppins), sans-serif;
+  }
+}
+
+@layer components {
+  .glass-header {
+    backdrop-filter: blur(12px);
+    background-color: rgba(248, 251, 252, 0.85);
+  }
+
+  .dark .glass-header {
+    background-color: rgba(28, 30, 34, 0.85);
+  }
+}
+
+nextjs-portal {
+  display: none !important;
+}
