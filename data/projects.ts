@@ -29,7 +29,7 @@ export const allProjects: Project[] = [
     title: "Residential Estate - 450ft",
     location: "Northern Suburbs",
     type: "video",
-    media: "/videos/Arumugam intro.mp4",
+    media: "/videos/arumugam.mp4",
     thumbnail:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuA2G1fhqfFcvrhhuMMQEF1gfFXo5zCbWdZadI2Xyz622cC-b1a5tJg06rt6OLnXEUhcw-8K90HrXTM5-FjydZnuMvSiamzjOhpHhaAXHvm2312c7RHR4Eog8xShCCbOoIDlAw97XK708kmjI9x9U74YZbTzXW50SzAp77esTuXXZ2WOw1G1g-yk7wqSuXHXR1yyDG8owyX8sxzQt6f8Z7FUEA_bbunqKU16d-SVvDA4CgQz35cYD6nM883e6lhTCVyA3u0e7jT16DyA",
     description: "Borewell installation for residential community",
@@ -63,7 +63,7 @@ export const allProjects: Project[] = [
     title: "Apartment Complex - 500ft",
     location: "Eastern Heights",
     type: "video",
-    media: "/videos/Arumugam intro.mp4",
+    media: "/videos/arumugam.mp4",
     thumbnail:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuA2G1fhqfFcvrhhuMMQEF1gfFXo5zCbWdZadI2Xyz622cC-b1a5tJg06rt6OLnXEUhcw-8K90HrXTM5-FjydZnuMvSiamzjOhpHhaAXHvm2312c7RHR4Eog8xShCCbOoIDlAw97XK708kmjI9x9U74YZbTzXW50SzAp77esTuXXZ2WOw1G1g-yk7wqSuXHXR1yyDG8owyX8sxzQt6f8Z7FUEA_bbunqKU16d-SVvDA4CgQz35cYD6nM883e6lhTCVyA3u0e7jT16DyA",
     description: "Multi-story residential building water solution",
@@ -97,7 +97,7 @@ export const allProjects: Project[] = [
     title: "Manufacturing Unit - 750ft",
     location: "Industrial Park South",
     type: "video",
-    media: "/videos/Arumugam intro.mp4",
+    media: "/videos/arumugam.mp4",
     thumbnail:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuA2G1fhqfFcvrhhuMMQEF1gfFXo5zCbWdZadI2Xyz622cC-b1a5tJg06rt6OLnXEUhcw-8K90HrXTM5-FjydZnuMvSiamzjOhpHhaAXHvm2312c7RHR4Eog8xShCCbOoIDlAw97XK708kmjI9x9U74YZbTzXW50SzAp77esTuXXZ2WOw1G1g-yk7wqSuXHXR1yyDG8owyX8sxzQt6f8Z7FUEA_bbunqKU16d-SVvDA4CgQz35cYD6nM883e6lhTCVyA3u0e7jT16DyA",
     description: "Industrial production facility borewell",
