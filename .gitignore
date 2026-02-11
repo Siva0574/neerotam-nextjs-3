@@ -12,6 +12,8 @@
 # next.js
 /.next/
 /out/
+public/videos/*.mp4
+
 
 # production
 /build
