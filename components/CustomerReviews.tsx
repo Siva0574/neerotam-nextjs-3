@@ -150,7 +150,7 @@ export default function CustomerReviews() {
   }, []);
 
   return (
-    <section className="py-12 sm:py-20 bg-background-light dark:bg-background-dark overflow-hidden scroll-mt-5" id="CustomerReviews">
+    <section className="py-14 sm:py-20 bg-background-light dark:bg-background-dark overflow-hidden scroll-mt-5" id="CustomerReviews">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">

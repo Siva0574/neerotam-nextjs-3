@@ -3,6 +3,8 @@ import Banner from "@/components/Banner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProjectsGrid from "@/components/ProjectsGrid";
+import BackButton from "@/components/BackButton";
+
 
 export const metadata: Metadata = {
   title: "All Projects - Neerotam Borewell Services",
@@ -16,10 +18,12 @@ export default function ProjectsPage() {
       {/* <Banner /> */}
       <Header />
       <main className="pt-10">
-        {/* Page Header */}
+      {/* Page Header */}
         <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-background-light to-white dark:from-background-dark dark:to-slate-900">
+          
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-3xl mx-auto">
+            
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-xs sm:text-sm font-bold uppercase tracking-wider mb-4 sm:mb-6">
                 <span className="material-symbols-outlined text-base sm:text-lg">
                   photo_library
@@ -38,6 +42,11 @@ export default function ProjectsPage() {
 
         {/* Projects Grid */}
         <ProjectsGrid />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 flex justify-center">
+          <BackButton />
+        </div>
+          
       </main>
       <Footer />
     </>

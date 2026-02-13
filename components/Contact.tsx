@@ -4,7 +4,7 @@ import { Facebook, Instagram, InstagramIcon, MessageCircle } from "lucide-react"
 
 export default function Contact() {
   return (
-    <section className="py-10 sm:py-16 lg:py-24 bg-white dark:bg-slate-900 scroll-mt-5" id="contact">
+    <section className="py-12 sm:py-16 lg:py-24 bg-white dark:bg-slate-900 scroll-mt-5" id="contact">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row gap-8 sm:gap-12 lg:gap-16">
           {/* Left Content */}

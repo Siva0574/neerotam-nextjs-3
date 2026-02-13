@@ -13,7 +13,7 @@ export default function Hero() {
 
       
   return (
-    <section className="relative overflow-hidden py-10 sm:py-16 lg:py-24">
+    <section className="relative overflow-hidden py-12 sm:py-16 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-12">
           {/* Left Content */}

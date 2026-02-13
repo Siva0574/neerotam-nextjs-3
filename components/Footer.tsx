@@ -95,7 +95,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="#" className="hover:text-primary transition-colors">
-                    Motor COntrol Panel Service
+                    Motor Control Panel Service
                   </a>
                 </li>
                 <li>

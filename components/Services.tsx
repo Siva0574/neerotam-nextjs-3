@@ -24,11 +24,23 @@ export default function Services() {
     description:
       "Complete motor control panel installation, repair, and servicing to ensure smooth motor performance.",
   },
+   {
+    icon: "build",
+    title: "Motor Fitting Service",
+    description:
+      "Professional motor fitting and installation service to ensure proper setup and long-lasting performance.",
+  },
+  {
+    icon: "invert_colors",
+    title: "Borewell Flushing Service",
+    description:
+      "Borewell flushing service to remove mud and blockages, improving water flow and borewell performance.",
+  },
 ];
 
 
   return (
-    <section className="py-10 sm:py-16 lg:py-20 bg-white dark:bg-slate-900/50 scroll-mt-5" id="services">
+    <section className="py-12 sm:py-16 lg:py-20 bg-white dark:bg-slate-900/50 scroll-mt-5" id="services">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12 lg:mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">
@@ -39,7 +51,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {services.map((service, index) => (
             <div
               key={index}

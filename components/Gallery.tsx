@@ -32,7 +32,7 @@ export default function Gallery() {
   };
 
   return (
-    <section className="py-10 sm:py-16 lg:py-20 bg-white dark:bg-slate-900/50 scroll-mt-5" id="gallery">
+    <section className="py-12 sm:py-16 lg:py-20 bg-white dark:bg-slate-900/50 scroll-mt-5" id="gallery">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12 lg:mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">
